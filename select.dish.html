@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dinner planner</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+
+  </head>
+  <body background="color:white; ">
+	 
+	 <div class="row">
+	 <div class="col-md-12" style = "border:2px solid black; background:lightgrey;"> <h1 style="margin-top:1%; margin-bottom:1%;">Homeltte!<small>Liz and Klaz dinner service</small></h1></div>
+	 </div>
+
+	
+	 <div class="row">
+		<div class="col-md-2" style = "border-top:1px solid black; background:white;">
+		<div>
+		<h2>My dinner</h2>
+				Number of guests: <span id="numberOfGuests"></span>
+				<div>
+				<div class="row">
+					<div class="col-md-3">
+						<button id="minusGuest" class="btn"><span class="glyphicon glyphicon-minus"></span></button></div>
+					<div class="col-md-3">	
+						<div style="border:1px solid black;"> <p align="center" > 4 </p> </div></div>
+					<div class="col-md-6">
+						<button id="plusGuest" class="btn"><span class="glyphicon glyphicon-plus"></span></button></div>
+				</div>
+			
+				<div class="row" style = "border-top:2px solid black; border-bottom:2px solid black; height:10%; background:lightgrey; margin-top: 4%;">
+					<div class="col-md-6" >
+					<p> Dish Name</p></div>
+					<div class= "col-md-6.col-md-of	fset-6" >
+					<p align="right"> Cost</p>
+			</div></div>	
+				
+			</div></div>
+			<div class="row"style = "background:white; margin-top:3%">
+					<div class="col-md-6" >
+					<p class="text-danger">Pending </p></div>
+					<div class= "col-md-6.col-md-offset-6" >
+					<p align="right" class="text-danger"> 0.00 </p>
+			</div>
+			<hr width="50%">
+					<div class="row">
+						<div class="col-md-12">
+						<p style="border: 1px solid black;" align="center"> hej </p>
+						</div>
+					</div>
+					
+					
+					<div class= "col-md-6.col-md-offset-6">
+					<p align="right" class="text-danger"> SEK 0.00 </p> </div>
+			
+			<button class="btn btn-default" type="submit" style=" background-color:orange; color: grey; margin-left: 30%; margin-top: 3%;">Confirm Dinner</button>
+			</div>
+			
+			</div>
+				
+			
+					
+		<div class="col-md-10" style = "border-top:1px solid black; border-left: 2px solid black;background:white;">
+			<div class="row" style = "height:200px; background:lightyellow; border-bottom: 2px solid black; ">
+				<div class="col-md-12">
+					<h3>SELECT DISH</h3>
+					<hr width="80%" >
+				
+						<div class="row" style = "height:10%; background:lightyellow;">
+							<div class="col-md-3">
+							<div class="input-group" style="width:60%;">
+							<input type="text" class="form-control" placeholder="Enter key words" aria-describedby="basic-addon2">
+							<span class="input-group-addon" id="basic-addon2" style="background-color: orange;"> Search </span>
+							</div> </div>
+
+							<div class="col-md-3 .col-md-offset-1">
+							<select class="form-control" style="width:60%;">
+								<option>Main</option>
+								<option>Starter</option>
+								<option>Dessert</option>
+							</select> </div>
+					</div>
+			</div>
+		</div>
+			
+			
+			
+			<div class = "col-md-10"style = "height:800px; background:white; margin-top: 8%;">
+				<div class="row">
+					<div class="col-md-1" style = "background:white;"> </div>
+					<div class="col-md-2" style = "background:white;">
+						<div>
+						<img src="lasagne.jpg" class="img-thumbnail" style="height:100%; width:100%;"></div>
+						<div>
+							<p align="center" style="border: 2px solid black; background-color:lightgrey;"> Dish 1 </p>
+						</div>
+						<div>
+							<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+						
+						</div>
+						</div>
+					<div class="col-md-2" style = "background:white;">
+						<div>
+						<img src="lasagne.jpg" class="img-thumbnail" style="height:100%; width:100%;"></div>
+						<div>
+							<p align="center" style="border: 2px solid black; background-color:lightgrey;"> Dish 2 </p>
+						</div>
+						<div>
+							<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad   </p>
+						</div></div>
+						
+					<div class="col-md-2" style = "background:white;">
+					<div>
+						<img src="lasagne.jpg" class="img-thumbnail" style="height:100%; width:100%;"></div>
+						<div>
+							<p align="center" style="border: 2px solid black; background-color:lightgrey;"> Dish 3 </p>
+						</div>
+						<div>
+							<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+						</div></div>
+						
+					<div class="col-md-2" style = "background:white;">
+					<div>
+						<img src="lasagne.jpg" class="img-thumbnail" style="height:100%; width:100%;"></div>
+						<div>
+							<p align="center" style="border: 2px solid black; background-color:lightgrey;"> Dish 4 </p>
+						</div>
+						<div>
+							<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+						</div> </div>
+						
+					<div class="col-md-2" style = "background:white;">
+						<div>
+						<img src="lasagne.jpg" class="img-thumbnail" style="height:100%; width:100%;"></div>
+						<div>
+							<p align="center" style="border: 2px solid black; background-color:lightgrey;"> Dish 5 </p>
+						</div>
+						<div>
+							<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+					</div></div>
+					
+					<div class="col-md-1" style = "background:white;"> </div>
+			
+				</div> </div>
+		
+		
+		
+		</div>
+	</div>
+
+
+		
+			
+	
+
+
+
+
+	
+		
+		<!--<img src="lasagne.jpg" class="img-thumbnail" style="height:10%; width:10%;">-->
+		
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Bootstrap JavaScript, needed if you want for instance tabs, models, popovers etc. -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+	<!-- The application JavaScript code -->
+	<script src="js/app.js"></script>
+	<script src="js/model/dinnerModel.js"></script>
+	<script src="js/view/exampleView.js"></script>
+	<script src="js/view/exampleViewController.js"></script>
+  </body>
+</html>
+
+
