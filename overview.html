@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dinner planner</title>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+
+  </head>
+  <body>
+	<div class="row" id="view5">
+  <div class="col-xs-12" style = "border:2px solid black;height:120px; background:lightgrey;"><h1 style="margin-left:5%; margin-top:2.5%;">Homeltte!<small>From Ella and Hampus</small></h1></div>
+  <div class="col-xs-12" style = "border:2px solid black;height:100px; background:lightyellow; "><h2 style="margin-left:5%; margin-top:2.5%;"><span id="numberOfGuests"></span></h2>
+  <button id ="backToIndex" type="button" class="btn btn-warning" style = "margin-left:90%;  margin-top:-6%;">Go back</button></div>
+  <div class="col-xs-10"  style = "border-bottom:3px solid black; height:300px; margin-right:10%; margin-left:10%;  padding: 30px;	">
+	  <div class="row"><div class="col-md-2 col-md-offset-1" style = "border:2px solid black;">
+		  <img id = "pictureDishOne" class="img-responsive" alt="Responsive image">
+		  
+		  <div class="col-xs-12 col-md-12" style = "border:2px solid black;background:lightgrey;"><span id="nameDishOne"></span></div>
+		  <span id="priceDishOne" style="font-size:25px;color:darkred;"><br></br>
+		  <b></b></span>
+		  </div>
+		  
+		  <div class="col-md-2 col-md-offset-1"style = "border:2px solid black;">
+			  <img id = "pictureDishTwo" class="img-responsive" alt="Responsive image">
+			  <div class="col-xs-12 col-md-12" style = "border:2px solid black;background:lightgrey;"><span id="nameDishTwo"></span></div>
+			  <span id="priceDishTwo" style="font-size:25px;color:darkred;"><br></br>
+		  <b></b></span>
+			  </div>
+			  <div class="col-md-2 col-md-offset-1"style = "border:2px solid black;">
+				  <img id = "pictureDishThree" class="img-responsive" alt="Responsive image">
+				  <div class="col-xs-12 col-md-12" style = "border:2px solid black;background:lightgrey;"><span id="nameDishThree"></span></div>
+				  <span id="priceDishThree" style="font-size:25px;color:darkred;"><br></br>
+		  <b></b></span>
+				  </div>
+				  <div class="col-md-2 col-md-offset-1" style="border-left:2px solid black; height:240px;">
+					  <span style="position: absolute; bottom: 0;font-size:25px;	"><b>Total: <span id ="totalPrice"style="color:darkred; "></span></b></span></div>
+					  </div></div>
+  <div class="col-xs-12" style = "height:100px;"><button type="button" class="btn btn-primary btn-lg active" style = "margin-left:45%;margin-right:45%; margin-top:20px">Print Full Receipe</button></div>
+  
+</div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Bootstrap JavaScript, needed if you want for instance tabs, models, popovers etc. -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+	<!-- The application JavaScript code -->
+	<script src="js/app.js"></script>
+	<script src="js/model/dinnerModel.js"></script>
+	<script src="js/view/view1.js"></script>
+	<script src="js/view/view2.js"></script>
+	<script src="js/view/view3.js"></script>
+	<script src="js/view/view4.js"></script>
+	<script src="js/view/view5.js"></script>
+	<script src="js/view/view6.js"></script>
+  </body>
+</html>

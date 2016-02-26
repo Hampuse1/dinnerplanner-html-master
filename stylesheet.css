@@ -1,0 +1,113 @@
+#header {
+	z-index: 1;
+	width: 100%;
+	height: 100px;
+	background-color: Yellow;
+	opacity: 0.75;
+	border: 2px solid #000000;
+}
+
+#headertwo {
+	z-index: 1;
+	width: 100%;
+	margin-top: -20px;
+	height: 100px;
+	background-color: White;
+	margin-bottom: 10px;
+	opacity: 0.75;
+}
+
+
+.hej{
+	background: white;
+	}
+
+#smalldiv{
+	z-index: 1;
+	width: 40%;
+	margin-top: 200px;
+	height: 250px;
+	background-color: white;
+	margin-bottom: 10px;
+	opacity: 0.75;
+	}
+
+#btn btn-default{
+	margin-top: 200px;
+	margin-bottom: 100px;
+		}
+
+
+#h1{
+    font-size: 5em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+#div2{
+	margin-left:100px;
+	margin-right:100px;
+	height:250px;
+	border-bottom: 2px solid #000000;
+	display: table;
+    width: 80%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+
+#square {
+    height:104px;
+    width:140px;
+    display: table-cell;
+    background: red; /*Optional*/
+    border: 4px solid #000000;
+    position: relative
+    
+}
+
+#square2 {
+    height:40px;
+    width:100%;
+    background: grey; /*Optional*/
+    border: 4px solid #000000;
+    position: absolute;
+    bottom: 0px;
+    
+}
+
+#square img
+{
+  max-width:500%; 
+  max-height:500%;
+  margin:auto;
+  display:block;
+}
+
+.midbutton{
+	float:middle;
+background-color:orange;
+margin-left:auto;
+margin-right:auto;
+display:block;
+margin-top:7%;
+}
+
+#checkoutbutton {
+  width: 67px;
+  height: 40px;
+  background-color: #33FF00;
+  moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border: 5px solid #009900;
+  padding: 5px;
+}
+
+.center-div
+{
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 3px;
+}
