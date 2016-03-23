@@ -48,47 +48,65 @@
 			</div>
 				
 			
-
-			
-		<div class="col-md-10" style = "border-top:1px solid black; border-left: 2px solid black;background:white; height:1200px;" id="view4">
-			<div class="row" style = "border: 2px; ">
-				<div class="col-md-6" style = "background:white;">
-					<div><span id="dishName"></span></div>
-					<div>
-						<span id="dishImage"></span></div>
-						<div>
-							<span id="dishText"></span> </div>
-						<button id="backToSelect" class="btn btn-default" type="submit" style=" background-color:orange; color: black; margin-bottom:3%;">go back to Select Dish</button>
-				</div>
-				<div class="col-md-6" style = "background:lightyellow; border-left: 2px solid black; border-bottom: 2px solid black;"> 
-					<div><h4>Ingredients for 4 people</h4></div>
-					<hr width="75%">
-						
-							<span id="writeIngredients"></span>
-				
-					<hr width="75%">
-						<div class="row">
-								<div class="col-md-6"> <button id="confirmDish" class="btn btn-default" type="submit" style=" background-color:orange; color: black; margin-bottom:3%;">Confirm Dish</button> </div>
-								<div class="col-md-3"><p>SEK</p>  </div>
-								<div class="col-md-3"><span id = "price"></span>  </div>
-						</div>
-						
 					
-				</div>			
+		<div class="col-md-10" style = "border-top:1px solid black; border-left: 2px solid black;background:white;" id="view3">
+			<div class="row" style = "height:200px; background:lightyellow; border-bottom: 2px solid black; ">
+				<div class="col-md-12">
+					<h3>SELECT DISH</h3>
+					<hr width="80%" >
+				
+						<div class="row" style = "height:10%; background:lightyellow;">
+							<div class="col-md-3">
+							<div class="input-group" style="width:60%;">
+							<input type="text" class="form-control" placeholder="Enter key words" aria-describedby="basic-addon2">
+							<span class="input-group-addon" id="basic-addon2" style="background-color: orange;"> Search </span>
+							</div> </div>
+
+							<div class="col-md-3">
+							<select class="form-control" style="width:60%;" id="selectType">
+								<option>Main</option>
+								<option>Starter</option>
+								<option>Dessert</option>
+							</select> </div>
+					</div>
 			</div>
+		</div>
 			
+			
+			
+			<div class = "col-md-10"style = "height:800px; background:white; margin-top: 8%;">
+				<div class="row">
+					<div class="col-md-1" style = "background:white;"> </div>
+					<span id="alldishes"> </span>
+										
+					<div class="col-md-1" style = "background:white;"> </div>
+			
+				</div> </div>
+		
+		
+		
 		</div>
 	</div>
 
+
+		
+			
+	
+
+
+
+
+	
 		
 		<!--<img src="lasagne.jpg" class="img-thumbnail" style="height:10%; width:10%;">-->
+		
 		
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Bootstrap JavaScript, needed if you want for instance tabs, models, popovers etc. -->
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 
-		<!-- The application JavaScript code -->
+	<!-- The application JavaScript code -->
 	<script src="js/app.js"></script>
 	<script src="js/model/dinnerModel.js"></script>
 	<script src="js/view/view1.js"></script>
@@ -99,3 +117,5 @@
 	<script src="js/view/view6.js"></script>
   </body>
 </html>
+
+
